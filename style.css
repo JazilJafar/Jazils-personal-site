@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+}
+.galindo-regular {
+  font-family: "Galindo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.frijole-regular {
+  font-family: "Frijole", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.mate-sc-regular {
+  font-family: "Mate SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.cabin-sketch-regular {
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cabin-sketch-bold {
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.knewave-regular {
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.land .header {
+    display: flex;
+}
+.land {
+    height: 100vh;
+    font-family: "Knewave";
+    background-image: url(./here.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.land .header img {
+    border-radius: 500px;
+}
+.land h1 {
+    font-family: "Cabin Sketch";
+    font-size: 50px;
+}
+.header ul {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 5%; 
+    list-style: none;
+    gap: 40px;
+    position: absolute;
+}
+
+.header ul li {
+    padding: 0 15px; 
+    position: relative;
+    top: 55px;
+    left: 900px;
+}
+.header ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 20px;
+}
+.hero-land{
+    display: flex;
+    justify-content: space-between;
+}
+#about {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    background-color: rgba(196, 169, 88, 0.725);
+}
+#about div {
+    align-items: center;
+}
+#about div h1 {
+    font-size: 60px;
+    font-family: "Cabin Sketch" ;
+}
+#about p {
+    padding: 70px;
+    font-size: 40px;
+    font-family: "Knewave";
+}
+#services {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+#services h2 {
+    font-size: 40px;
+    padding: 20px;
+    padding-right: 300px;
+    font-family: "Galindo";
+}
+#services h2 b {
+    font-family: "Cabin Sketch";
+}
+#contact{
+    height: 100vh;
+    background-image: linear-gradient(rgb(106, 102, 102),white);
+    text-align: center;
+}
+#contact h3{
+  padding-top: 100px;
+  font-size: 60px;
+  font-family: "Cabin Sketch";
+}
+#contact h4 {
+    padding: 30px;
+    font-size: 32px;
+    font-family: "Cabin Sketch";
+}
+#contact a{
+    text-decoration: none;
+    background-color: white;
+    padding: 16px;
+    border-radius: 38%;
+}
