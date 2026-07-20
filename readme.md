@@ -9,6 +9,7 @@ what are the features in website
   4th page is contact page
 3.code can be easily readed
 4.used many beatuful fonts to make website more beatiful
+5.picture with describing with text for blind
 
 languages used:
 1.HTML
