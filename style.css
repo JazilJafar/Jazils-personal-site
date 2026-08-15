@@ -133,24 +133,3 @@ body {
     padding: 16px;
     border-radius: 38%;
 }
-#fun {
-    padding-top: 30px;
-    height: 100vh;
-    background-image: radial-gradient(rgb(212, 150, 5),rgb(209, 183, 37));
-}
-#fun h2 {
-  font-family: "Cabin Sketch";
-  text-align: center;
-  font-size: 40px;
-}
-#fun h4 {
-    font-size: 22px;
-    font-family: "Mate SC";
-    text-align: center;
-}
-#fun h5 {
-    text-align: center;
-    font-size: 18px;
-    padding: 30px 0;
-    font-family: 'Courier New', Courier, monospace;
-}
