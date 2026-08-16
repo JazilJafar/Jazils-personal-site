@@ -41,7 +41,7 @@ body {
 .land {
     height: 100vh;
     font-family: "Knewave";
-    background-image: url(./here.jpg);
+    background-image: radial-gradient(blue,white);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
